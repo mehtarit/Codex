@@ -1,0 +1,31 @@
+.grid-container {
+  background-color: #bbb;
+  padding: 10px;
+  margin: 1em 4em;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.grid-container > div {
+  background-color: rgba(255, 0, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.header {
+  order: 2;
+}
+
+.navigation {
+  order: 1;
+  grid-row: 1 / span 3;
+}
+
+.hero {
+  order: 3;
+}
+
+.featured {
+  order: 4;
+}
