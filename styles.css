@@ -1,0 +1,19 @@
+.header__inner {
+  width: 100%
+  display: flex;
+
+}
+
+.header__logo {
+  height: 30vh;
+  margin-right: 1em;
+  vertical-align: top;
+  margin-top: 1em;
+}
+
+.header__title {
+  font-weight: 300;
+  font-size: 4em;
+  display: flex;
+  color: #212121;
+}
