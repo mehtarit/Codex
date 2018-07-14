@@ -9,3 +9,39 @@
   font-size: 30px;
   text-align: center;
 }
+
+.header {
+  display: flex;
+}
+
+.header .logo {
+  background-color: rgba(0, 255, 100, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.header .title {
+  background-color: rgba(0, 255, 100, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  width:75%;
+}
+
+.header .title .name {
+  font-size: 30px;
+  text-align: center;
+  padding:10px;
+  background-color: rgba(200, 100, 150, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.header .title .subtitle {
+  font-size: 10px;
+  text-align: center;
+  padding:10px;
+  background-color: rgba(200, 100, 150, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
