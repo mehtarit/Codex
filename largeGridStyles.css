@@ -104,4 +104,37 @@
   font-size: 30px;
   text-align: center;
   order: 4;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-container .featured div {
+  content: "";
+  background-color: rgba(100, 0, 0, 0.3);
+  width:33.3333%;
+  height: 400px;
+}
+
+.featured .freud .picture {
+  width:100%;
+  position: relative;
+  background-image: url("https://github.com/mehtarit/codex/blob/master/Images/freud-blue2.jpg?raw=true");
+  height:80%;
+  background-size: cover;
+}
+
+.featured .bedrock .picture {
+  width:100%;
+  position: relative;
+  background-image: url("https://github.com/mehtarit/codex/blob/master/Images/freud-blue2.jpg?raw=true");
+  height:80%;
+  background-size: cover;
+}
+
+.featured .summit .picture {
+  width:100%;
+  position: relative;
+  background-image: url("https://github.com/mehtarit/codex/blob/master/Images/freud-blue2.jpg?raw=true");
+  height:80%;
+  background-size: cover;
 }
