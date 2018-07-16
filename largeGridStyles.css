@@ -74,10 +74,28 @@
 
 .grid-container .hero {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
   text-align: center;
   order: 3;
+  display: flex;
+  font-size: 30px;
+}
+
+.grid-container .hero .main {
+  width: 100%;
+  position: relative;
+  background-image: url("https://github.com/mehtarit/codex/blob/master/Images/highlights.jpg?raw=true");
+  background-size: cover;
+  height: 400px;
+}
+
+.grid-container .hero .main article {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  bottom: 0;
+  padding-bottom:20px;
 }
 
 .grid-container .featured {
