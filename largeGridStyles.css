@@ -4,35 +4,19 @@
   margin: 1em 4em;
   display: grid;
   grid-template-columns: 15% 85%;
+  grid-gap: 10px;
 }
-.grid-container > div {
-  background-color: rgba(255, 0, 255, 0.8);
+
+.grid-container .header {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
-}
-
-.header {
   order: 2;
   display: flex;
 }
 
-.navigation {
-  order: 1;
-  grid-row: 1 / span 3;
-}
-
-.hero {
-  order: 3;
-}
-
-.featured {
-  order: 4;
-}
-
-
-.header .logo {
+.grid-container .header .logo {
   background-color: rgba(0, 255, 100, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
@@ -41,11 +25,65 @@
   width: 25%;
 }
 
-.header .title {
+.grid-container .header .title {
   background-color: rgba(0, 255, 100, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 30px;
   text-align: center;
   width:75%;
+}
+
+.grid-container .navigation {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  text-align: center;
+  order: 1;
+  grid-row: 1 / span 3;
+  background-color: rgba(0, 100, 100, 0.5);
+}
+
+.grid-container .navigation .buttonboxes {
+  background-color: #2d3c49;
+  height: 50%;
+  margin-top: 35%;
+
+}
+
+.grid-container .navigation .buttonboxes .blue {
+  background-color: #999;
+  padding: 10px;
+}
+
+.grid-container .navigation .buttonboxes .black {
+  background-color: #777;
+  padding: 10px;
+}
+.grid-container .navigation .buttonboxes .gray {
+  background-color: #555;
+  padding: 10px;
+}
+
+.grid-container .navigation .buttonboxes div div {
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #02b3e4;
+}
+
+.grid-container .hero {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  order: 3;
+}
+
+.grid-container .featured {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  order: 4;
 }
